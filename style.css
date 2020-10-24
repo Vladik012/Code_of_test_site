@@ -1,0 +1,103 @@
+body{
+  background-image: url("../img/Gradient_2-min.jpg");
+  font-family:Verdana;
+}
+.Fortnite {
+  color: purple;
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+.contant {
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 11%;
+}
+.stroi {
+  color: black;
+  position: absolute;
+}
+.video {
+  text-decoration: none;
+}
+a {
+    text-decoration: none;
+   }
+.dws1 {
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button1 {
+  left: 0;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+}
+.dws-menu{
+   background-color: white;
+   margin-top: 100px;
+   width: 100%;
+}
+ul.dws-ul{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+li.dws-li{
+  list-style: none;
+  padding: 10px;
+}
+li.dws-li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  position: relative;
+}
+li.dws-li a i{
+  margin-right: 10px;
+}
+li.dws-li a::before{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #33bdf1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: .5s;
+  mix-blend-mode: multiply;
+}
+li.dws-li a::after{
+  content: '';
+  width: 0px;
+  height: 3px;
+  background-color: #ff2117;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transition: .5s;
+  mix-blend-mode: multiply;
+}
+li.dws-li:hover{
+  background-color: #e5eae8;
+}
+li.dws-li:hover a::before{
+  width: 50%;
+  transform: translateX(100%);
+}
+li.dws-li:hover a::after{
+  width: 50%;
+  transform: translateX(-100%);
+}

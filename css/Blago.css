@@ -1,0 +1,9 @@
+body{
+  background-image: url("../img/Благотворительность.png");
+  font-family:Verdana;
+}
+.add {
+      color: green;
+      text-decoration: none;
+      text-align: center;
+}
